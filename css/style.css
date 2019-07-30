@@ -1,13 +1,16 @@
-html{
-  margin: 0px;
-}
 body{
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
-head{
-  color: red;
+.wrapper{
+  width: 100%;
+  height: auto;
+  position: relative;
 }
-.container{
-  background: black;
+.insider{
+  width:990px;
+  height: auto;
+  min-height: 500px;
+  margin: auto 0px;
+  background: red;
 }
