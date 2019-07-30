@@ -1,16 +1,104 @@
 body{
   margin: 0px;
   padding: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 .wrapper{
   width: 100%;
   height: auto;
-  position: relative;
 }
 .insider{
-  width:990px;
+  width: 916px;
   height: auto;
   min-height: 500px;
-  margin: auto 0px;
-  background: red;
+  margin: 0px auto;
+  margin-top: 60px;
+  padding: 74px;
+}
+.header{
+  height: auto;
+  min-height: 260px;
+  background: blue;
+}
+.presentation{
+  width: 696px;
+  height: auto;
+  float: left;
+}
+.presentation .name{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 34px;
+  margin-bottom: 6px;
+  display: block;
+}
+.presentation .intitule{
+  text-transform: uppercase;
+  color: #54c4e9;
+  margin: 0px;
+}
+.presentation .description{
+  margin-top: 10px;
+  font-size: 14px;
+}
+.pic{
+  width: 220px;
+  height: auto;
+  float: right;
+}
+.pic img{
+  float: right;
+}
+.contact{
+  width: 916px;
+  float: left;
+  height: auto;
+  margin-top: 10px;
+}
+.infos{
+  width: 193px;
+  float: left;
+  margin-right: 48px;
+}
+.infos .label{
+  width: 193px;
+  text-transform: uppercase;
+  color: #54c4e9;
+  border-bottom: 1px #54c4e9 solid;
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+.infos .info{
+  margin-top: 6px;
+  font-size: 14px;
+}
+.infos.last{
+  margin-right: 0px !important;
+}
+.contact .linkedinlink{
+  width: 916px;
+  float: left;
+  height: auto;
+  font-size: 13px;
+  margin-top: 6px;
+}
+.contact .linkedinlink .label{
+  width: auto;
+  border-right: 1px #54c4e9 solid;
+  border-bottom: 1px #54c4e9 solid;
+  padding-right: 10px;
+  height: 20px;
+  float: left;
+  color: #54c4e9;
+  text-transform: uppercase;
+}
+.contact .linkedinlink .info{
+  padding-left: 10px;
+  border-bottom: 1px #54c4e9 solid;
+  height: 20px;
+  float: left;
+}
+.contact .linkedinlink .info .boldblue{
+  font-weight: bold;
+  color: #54c4e9;
 }
