@@ -3,6 +3,10 @@ body{
   padding: 0px;
   font-family: 'Montserrat', sans-serif;
 }
+main{
+  margin-top: 50px;
+  float: left;
+}
 .wrapper{
   width: 100%;
   height: auto;
@@ -105,29 +109,51 @@ body{
 .leftside{
   float: left;
   height: auto;
-  min-height: 400px;
-  background: lightgreen;
-  width: 616px;
+  width: 615px;
 }
 .rightside{
   float: right;
   height: auto;
   min-height: 400px;
-  width: 300px;
+  width: 299px;
+  border-left: 1px #54c4e9 solid;
 }
 .boxright{
-  border-left: 1px #54c4e9 solid;
   height: auto;
   min-height: 100px;
-  padding-left: 20px;
-  float: left;
+  float: right;
+  width: 278px;
 }
+.rightside .padding{
+  width: 12px;
+  float: left;
+  height: 100%;
+  border-top: 1px #54c4e9 solid;
+}
+
+.leftside .padding{
+  width: 12px;
+  float: left;
+  height: auto;
+  border-top: 1px #54c4e9 solid;
+}
+
+
+
 .boxright h2{
   color: #54c4e9;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 100;
-  margin-top: 0px;
+  margin-top: -20px;
+  margin-bottom: 4px;
+}
+.boxleft h2{
+  color: #54c4e9;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: -10px;
   margin-bottom: 4px;
 }
 .boxright .item{
@@ -157,9 +183,52 @@ body{
 
 
 
-
-
-
+.leftside .experience{
+  height: auto;
+  float: left;
+  width: 615px;
+  border-left: 1px #54c4e9 solid;
+}
 .boxleft{
+  height: auto;
+  min-height: 100px;
+  float: right;
+  width: 594px;
+}
+.boxleft .itemexperience{
+  margin-top: 18px;
+}
+.boxleft .itemexperience .label{
+  font-size: 15px;
+  height: 32px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.boxleft .itemexperience .date{
+  font-size: 13px;
+  color: lightgray;
+  display: block;
+}
+.boxleft .itemexperience .description{
+  font-size: 13px;
+  display: block;
+  color: #3b3b3b;
+  margin-top: 6px;
+}
+.boxleft .itemexperience ul{
+  padding-left: 17px;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #3d3d3d;
+}
+.boxleft .itemexperience ul li{
+}
 
+.leftside .formation{
+  margin-top: 40px;
+  float: left;
+  width: 615px;
+  border-left: 1px #54c4e9 solid;
 }
