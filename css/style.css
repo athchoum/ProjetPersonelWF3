@@ -6,6 +6,7 @@ body{
 main{
   margin-top: 50px;
   float: left;
+  margin-bottom: 74px;
 }
 .wrapper{
   width: 100%;
@@ -16,7 +17,6 @@ main{
   height: auto;
   min-height: 500px;
   margin: 0px auto;
-  margin-top: 60px;
   padding: 74px;
 }
 .header{
@@ -116,13 +116,12 @@ main{
   height: auto;
   min-height: 400px;
   width: 299px;
-  border-left: 1px #54c4e9 solid;
 }
 .boxright{
   height: auto;
   min-height: 100px;
   float: right;
-  width: 278px;
+  width: 260px;
 }
 .rightside .padding{
   width: 12px;
@@ -137,6 +136,31 @@ main{
   height: auto;
   border-top: 1px #54c4e9 solid;
 }
+
+.competencespro{
+  float: left;
+  border-left: 1px #54c4e9 solid;
+  width: 278px;
+}
+.competencesperso{
+  float: left;
+  border-left: 1px #54c4e9 solid;
+  margin-top: 40px;
+  width: 278px;
+}
+.langues{
+  float: left;
+  border-left: 1px #54c4e9 solid;
+  margin-top: 40px;
+  width: 278px;
+}
+.loisirs{
+  float: left;
+  border-left: 1px #54c4e9 solid;
+  margin-top: 40px;
+  width: 278px;
+}
+
 
 
 
@@ -165,20 +189,62 @@ main{
   float: left;
   width: 100%;
 }
-.boxright .item img{
+.competencespro .boxright .item img{
   height: 22px;
   float: left;
   margin-bottom: 10px;
   margin-right: 10px;
 }
-.boxright .item .label{
+.competencespro .boxright .item .label{
   font-size: 15px;
   display: block;
-  width: 234px;
+  width: 226px;
   float: left;
-  height: 32px;
+  height: 30px;
   line-height: 30px;
 }
+.competencesperso .boxright .item .label{
+  font-size: 15px;
+  display: block;
+  width: 226px;
+  float: left;
+  height: 26px;
+  line-height: 26px;
+}
+.langues .boxright .item .label{
+  font-size: 15px;
+  display: block;
+  width: 226px;
+  float: left;
+  height: 26px;
+  line-height: 26px;
+}
+.loisirs .boxright .item .label{
+  font-size: 15px;
+  display: block;
+  width: 226px;
+  float: left;
+  height: 26px;
+  line-height: 26px;
+}
+.loisirs .boxright .item ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.loisirs .boxright .item ul li{
+  float: left;
+  margin-right: 14px;
+}
+
+.loisirs .boxright{
+  height: auto;
+  float: right;
+  width: 260px;
+  min-height: 30px;
+}
+
+
 
 
 
@@ -227,7 +293,7 @@ main{
 }
 
 .leftside .formation{
-  margin-top: 40px;
+  margin-top: 64px;
   float: left;
   width: 615px;
   border-left: 1px #54c4e9 solid;
