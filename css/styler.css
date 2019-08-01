@@ -1,0 +1,7 @@
+.percentage{
+  position: relative
+  font-size: 1em
+  background: $primary-color
+  height: 1em
+  border-radius: 0.5em
+}
