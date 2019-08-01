@@ -5,3 +5,80 @@
   height: 1em
   border-radius: 0.5em
 }
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .insider{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    margin: 0px auto;
+    padding: 74px;
+  }
+  .presentation{
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+  .pic{
+    width: 100%;
+    height: auto;
+    float: right;
+    text-align: center;
+  }
+  .wrapper{
+    width: 100%;
+    height: auto;
+  }
+  .contact {
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-top: 10px;
+}
+.contact .linkedinlink {
+    width: 100%;
+    float: left;
+    height: auto;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.pic img {
+    float: none;
+}
+.name::first-letter{
+  font-size: 34px;
+  float: left;
+  margin-left: 0;
+  margin-top: 0;
+  text-align: center;
+  
+}
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
