@@ -1,0 +1,200 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+main{
+  float: left;
+}
+.wrapper{
+  width: 100%;
+  height: auto;
+}
+.insider{
+  width: 1200px;
+  height: auto;
+  min-height: 500px;
+  margin: 0px auto;
+}
+.connexionbloc{
+  width: 320px;
+  height: auto;
+  margin: 0px auto;
+  background: #F7F6FB;
+  border-radius: 20px;
+  margin-top: 90px;
+  padding: 70px;
+}
+.header{
+
+}
+.connexionbloc img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 200px;
+}
+.connexionbloc form{
+  margin-top: 50px;
+}
+.connexionbloc form p{
+}
+.connexionbloc form p label{
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #5C5C5C;
+}
+.connexionbloc form p input{
+  border: none;
+  width: 88%;
+  height: 40px;
+  border-radius: 24px;
+  font-size: 14px;
+  padding-left: 6%;
+  padding-right: 6%;
+  color: #4EC2FF;
+}
+.connexionbloc form p button{
+  border: none;
+  width: 160px;
+  height: 40px;
+  border-radius: 24px;
+  text-align: center;
+  display: block;
+  background: #55D045;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+.wrapper .insider header{
+    margin-top: 30px;
+}
+.wrapper .insider .logohead{
+  background: #71ceff;
+  width: 300px;
+  height: 76px;
+  float: left;
+}
+.wrapper .insider .logohead img{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 11px 0px;
+  width: 230px;
+}
+.wrapper .insider .topbar{
+  float: right;
+  width: 900px;
+  height: 60px;
+  background: #F7F6FB;
+  padding: 8px 0px;
+  line-height: 60px;
+  border-radius: 0px 40px 40px 0px;
+  text-align: right;
+}
+.wrapper .insider .topbar span{
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #474747;
+}
+.wrapper .insider .topbar .bold{
+font-weight: 500;
+}
+.wrapper .insider .topbar img{
+  float: right;
+  margin-right: 8px;
+  width: 60px;
+  margin-left: 8px;
+}
+.wrapper .insider .left ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+}
+.wrapper .insider .left ul li{
+
+}
+.wrapper .insider .left ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+  width: 270px;
+  margin-left: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+.wrapper .insider .left ul li a span{
+    margin-left: 38px;
+}
+.wrapper .insider .left ul li a img{
+  float: left;
+  width: 24px;
+  line-height: 30px;
+  display: block;
+  margin-right: 10px;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.wrapper .insider .left ul li a:hover{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+  width: 270px;
+  margin-left: 10px;
+  padding-left: 20px;
+  background-color: #3fb1ed ;
+  border-radius: 26px 0px 0px 26px;
+}
+.selected{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+  width: 260px;
+  margin-left: 10px;
+  padding-left: 30px;
+  background-color: #4ab9f3 ;
+  border-radius: 26px 0px 0px 26px;
+}
+
+
+
+
+
+
+/*============left part============*/
+
+.wrapper .insider .left{
+  width: 300px;
+  float: left;
+  height: auto;
+  background: #4EC2FF;
+  display: block;
+  min-height: 300px;
+  min-width: 260px;
+}
+.wrapper .insider .right{
+  width: auto;
+  float: left;
+  height: 600px;
+  background: lightblue;
+  display: block;
+  min-height: 300px;
+}
